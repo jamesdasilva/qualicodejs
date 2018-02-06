@@ -21,8 +21,15 @@
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.15.0-rc.6",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint",
+      "pre-push": "npm run eslint"
+    }
+  }
 }
