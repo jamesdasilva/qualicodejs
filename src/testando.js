@@ -1,3 +1,3 @@
-export default function(){
-    console.log("1, 2, 3... Testando!");
-} 
+export default function () {
+  // console.log("1, 2, 3... Testando!");
+}
