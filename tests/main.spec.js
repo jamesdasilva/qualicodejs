@@ -1,20 +1,19 @@
-var expect = require('chai').expect;
-var main = require('../src/main.js');
+import { expect } from 'chai';
+import main from '../src/main.js';
 
-describe('Main', function () {
+describe('Main', () => {
 
   // smoke tests
-  describe('Smoke tests', function () {
+  describe('Smoke tests', () => {
 
-      it('shoult exist the main instance', function () {
+      it('shoult exist the main instance', () => {
         expect(main).to.exist;
 
       });
 
-      it('shoult exist ...', function(){
+      it('shoult exist ...', () => {
 
       });
 
   });
-
 });
