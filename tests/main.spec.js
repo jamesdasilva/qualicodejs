@@ -8,7 +8,7 @@ describe('Main', () => {
 
       it('shoult exist the main instance', () => {
         expect(main).to.exist;
-
+        
       });
 
       it('shoult exist ...', () => {
