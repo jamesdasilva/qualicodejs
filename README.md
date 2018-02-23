@@ -56,7 +56,7 @@ npm run lint
 
 ### Hooks do Git
 
-Os comandos git commit e git push só são aceitos se todos os testes até então definidos passarem e se os códigos desenvolvidos estiverem siguindo o guia de estilo da [AirBnb](https://github.com/airbnb/javascript/blob/master/README.md).
+Os comandos git commit e git push só são aceitos se todos os testes até então definidos passarem e se os códigos desenvolvidos estiverem seguindo o guia de estilo da [AirBnb](https://github.com/airbnb/javascript/blob/master/README.md).
 
 ## Ferramentas utilizadas
 
