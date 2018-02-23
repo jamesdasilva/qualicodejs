@@ -23,7 +23,9 @@
     "server": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack",
     "build:watch": "./node_modules/.bin/webpack -w",
-    "build:prod": "./node_modules/.bin/webpack -p"
+    "build:prod": "./node_modules/.bin/webpack -p",
+    "newgit": "rm -rf .git && git init",
+    "newdev": "npm run newgit && npm install"
   },
   "husky": {
     "hooks": {
