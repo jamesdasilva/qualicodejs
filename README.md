@@ -58,6 +58,21 @@ npm run lint
 
 Os comandos git commit e git push só são aceitos se todos os testes até então definidos passarem e se os códigos desenvolvidos estiverem seguindo o guia de estilo da [AirBnb](https://github.com/airbnb/javascript/blob/master/README.md).
 
+### Fazendo Build
+
+Para fazer o build do produto, deve utilizar o comando:
+```
+npm run build
+```
+Modo escuta: 
+```
+npm run build:watch
+```
+Versão para produção (arquivo minificado):
+```
+npm run build:prod
+```
+
 ## Ferramentas utilizadas
 
 * [Webpack](https://webpack.js.org) - A static module bundler for modern JavaScript applications.
